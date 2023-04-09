@@ -4,6 +4,7 @@ These are the files, from Microsoft, that are required to use AD in PowerShell
 If you only need to use them once simply save them in the same folder as your AD PS1 and put this at the top of your AD PS1:
 
 Import-Module .\Microsoft.ActiveDirectory.Management.dll
+
 Import-Module .\ActiveDirectory.psd1
 
 --- More info ---
